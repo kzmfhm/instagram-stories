@@ -26,7 +26,7 @@ const Profiles = () => {
   };
 
   return (
-    <div className='flex gap-8 mb-10 justify-center mt-[-55px] items-center ml-10 font-serif p-4'>
+    <div className='flex gap-5 mb-10 justify-center md:mt-[-55px] items-center md:ml-5 font-serif p-4'>
       <div className='story-cover'>
       <Link href='/profile' className={`story-id${loadingProfile ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingProfile)}>
         <div className='story-id-text'>
@@ -44,14 +44,14 @@ const Profiles = () => {
       <div className='story-cover'>
       <Link href='/instagram' className={`story-id${loadingInstagram ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingInstagram)}>
         <div className='story-id-text'>
-          <Image src={instaIcon} alt="Instagram Icon" width={45} height={45}/>
+          <Image src={instaIcon} alt="Instagram Icon" width={38} height={38}/>
         </div>
       </Link>
       </div>
       <div className='story-cover'>
       <Link href='/Avatar' className={`story-id${loadingAvatar ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingAvatar)}>
         <div className='story-id-text'>
-        <Image src={avatarImage} alt="Avatar" width={45} height={45}/></div>
+        <Image src={avatarImage} alt="Avatar" width={42} height={42}/></div>
       </Link>
     </div>
     <div className='story-cover'>
