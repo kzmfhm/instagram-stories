@@ -1,0 +1,16 @@
+.app-bar {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .instagram-logo {
+    display: flex;
+    align-items: center;
+    z-index: 30;
+  }
+  
+
