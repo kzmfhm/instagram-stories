@@ -2,14 +2,14 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import './style.css';
-import instaIcon from '../../public/insta.svg';
+import instaIcon from '../../../public/insta.svg';
 import Image from 'next/image';
-import iccIcon from '../../public/icc.svg';
-import pkIcon from '../../public/pk.svg';
-import profileImage from '../../public/profile.svg';
-import avatarImage from '../../public/avatar.svg';
+import iccIcon from '../../../public/icc.svg';
+import pkIcon from '../../../public/pk.svg';
+import profileImage from '../../../public/profile.svg';
+import avatarImage from '../../../public/avatar.svg';
 
-const Layout = () => {
+const Profiles = () => {
   const [loadingProfile, setLoadingProfile] = useState(false);
   const [loadingIcc, setLoadingIcc] = useState(false);
   const [loadingInstagram, setLoadingInstagram] = useState(false);
@@ -65,4 +65,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Profiles;

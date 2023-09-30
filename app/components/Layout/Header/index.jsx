@@ -1,6 +1,7 @@
+"use client";
 import React from 'react';
 import Image from 'next/image'; 
-import instagramImage from '../../public/instagram.svg'
+import instagramImage from '../../../../public/instagram.svg'
 
 const Header = () => {
   return (
