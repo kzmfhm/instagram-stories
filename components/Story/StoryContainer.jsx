@@ -8,23 +8,23 @@ const StoryContainer = () => {
   const cards = [
     {
       id: '1',
-      video: '/videos/cat.mp4', 
+      video: '/videos/tom-jery.mp4',
     },
     {
       id: '2',
-      video: '/videos/water.mp4', 
+      video: '/videos/code.mp4', 
     },
     {
       id: '3',
-      video: '/videos/morning.mp4', 
+      video: '/videos/cute.mp4', 
     },
     {
       id: '4',
-      video: '/videos/long-drive.mp4',
+      video: '/videos/tom-jery.mp4',
     },
     {
       id: '5',
-      video: '/videos/water-fall.mp4', 
+      video: '/videos/frontend-course.mp4', 
     },
   ];
 

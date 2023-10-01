@@ -7,9 +7,8 @@ import Image from 'next/image';
 import iccIcon from '../../public/icc.svg';
 import pkIcon from '../../public/pk.svg';
 import profileImage from '../../public/profile.svg';
-import avatarImage from '../../public/avatar.svg';
 import reactImage from '../../public/react.svg';
-import foodIcon from '../../public/food.svg';
+
 
 const Profiles = () => {
   const [loadingProfile, setLoadingProfile] = useState(false);
@@ -57,12 +56,6 @@ const Profiles = () => {
         </div>
       </Link>
       </div>
-      <div className='story-cover'>
-      <Link  href='/Stories' className={`story-id${loadingAvatar ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingAvatar)}>
-        <div className='story-id-text'>
-        <Image src={avatarImage} alt="Avatar" width={42} height={42}/></div>
-      </Link>
-    </div>
     <div className='story-cover'>
       <Link  href='/Stories'className={`story-id${loadingAvatar ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingAvatar)}>
         <div className='story-id-text'>
@@ -70,16 +63,7 @@ const Profiles = () => {
         </div>
       </Link>
     </div>
-    
-    <div className='story-cover'>
-      <Link  href='/Stories'className={`story-id${loadingAvatar ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingAvatar)}>
-        <div className='story-id-text'>
-      
-        <Image src={foodIcon} alt="Food"/>
-        </div>
-      </Link>
-    </div>
-    </div>
+  </div>
   );
 };
 

@@ -52,7 +52,7 @@ const cards = [
         
               {
                 id: "c9464dc4-1643-44ef-aa9a-978b3071c992",
-                storyLink: "/public/videos/cat.mp4",
+                storyLink: "/public/videos/tom-jery.mp4",
               },
              
               {
@@ -79,49 +79,17 @@ const cards = [
           },
         ],
       },
-     
-      {
-        username: "_cartoon_reels",
-        stories: [
-          {
-            id: "07f51014-fbb2-493c-a062-94ca3993e7cc",
-            storyLink: "/public/videos/tom_jery.mp4",
-          },
-        
-        ],
-      },
       {
         username: "pk",
       stories: [
         {
-          id: "d025372b-9541-4bf0-a825-ea6ab119437a",
-          storyLink: "/public/videos/waves.mp4",
-        },
-        {
-          id: "1e25c372-b18f-452b-a7a6-cd3a06b1f5a9",
-          storyLink: "/public/videos/night.mp4",
-        },
-        {
-          id: "6c6110f8-4178-4671-9148-7f6eef3c51b6",
-          storyLink: "/public/videos/water-fall.mp4",
-        },
-        {
           id: "5185e270-a319-4303-9624-c94f0fe5d2a6",
-          storyLink: "/public/videos/morning.mp4",
+          storyLink: "/public/videos/tom-jery.mp4",
         },
        
       ],
     },
-      {
-        username: "_food-items",
-        stories: [
-          {
-            id: "c782db7e-15f3-4bdc-8669-6def52b05a0b",
-            storyLink: "/public/video/food.mp4",
-          },
-       
-        ],
-      },
+     
      
    
   ];
