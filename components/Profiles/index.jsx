@@ -8,6 +8,8 @@ import iccIcon from '../../public/icc.svg';
 import pkIcon from '../../public/pk.svg';
 import profileImage from '../../public/profile.svg';
 import avatarImage from '../../public/avatar.svg';
+import reactImage from '../../public/react.svg';
+import foodIcon from '../../public/food.svg';
 
 const Profiles = () => {
   const [loadingProfile, setLoadingProfile] = useState(false);
@@ -27,6 +29,13 @@ const Profiles = () => {
 
   return (
     <div className='flex gap-5 mb-10 justify-center md:mt-[-55px] items-center md:ml-5 font-serif p-4'>
+      <div className='story-cover'>
+      <Link href='/Stories' className={`story-id${loadingProfile ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingProfile)}>
+        <div className='story-id-text'>
+          <Image src={reactImage} className='react' alt="React Logo" />
+        </div>
+      </Link>
+      </div>
       <div className='story-cover'>
       <Link href='/Stories' className={`story-id${loadingProfile ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingProfile)}>
         <div className='story-id-text'>
@@ -58,6 +67,15 @@ const Profiles = () => {
       <Link  href='/Stories'className={`story-id${loadingAvatar ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingAvatar)}>
         <div className='story-id-text'>
           <Image src={pkIcon} alt="Pakistan"/>
+        </div>
+      </Link>
+    </div>
+    
+    <div className='story-cover'>
+      <Link  href='/Stories'className={`story-id${loadingAvatar ? ' loading' : ''}`} onClick={() => handleLinkClick(setLoadingAvatar)}>
+        <div className='story-id-text'>
+      
+        <Image src={foodIcon} alt="Food"/>
         </div>
       </Link>
     </div>

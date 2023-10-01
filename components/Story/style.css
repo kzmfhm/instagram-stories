@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+  
   }
   
   .story-wraper {
@@ -109,6 +110,19 @@
     }
     
     .card--next .icon {
+      display: none;
+    }
+    .card--previous .heart {
+      display: none;
+    }
+    .card--next2 .heart {
+      display: none;
+    }
+    .card--previous2 .heart {
+      display: none;
+    }
+    
+    .card--next .heart {
       display: none;
     }
     .card--next .progress-bar {

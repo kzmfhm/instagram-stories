@@ -1,6 +1,4 @@
-// data.js
-
-const data = [
+const cards = [
   {
     username: "_frontend_developer",
     stories: [
@@ -17,7 +15,7 @@ const data = [
         storyLink: "/public/videos/frontend-course.mp4",
       },
       {
-        id: "223c46e8-25a5-4e81-90c2-8ded2690db04",
+        id: "88d88d4f-b9b2-4717-9ed0-e3ed2a7ff5d9",
         storyLink: "/public/images/React.webp",
       },
    
@@ -27,23 +25,23 @@ const data = [
       username: "kzm",
       stories: [
         {
-          id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+          id: "3ca09142-593e-4ea7-b0ec-9b840e3fbb35",
           storyLink: "/public/images/comic01.jpg",
         },
         {
-          id: "c7bd8411-d6b8-4e7d-a620-74117409e3e2",
+          id: "3b4e0eae-ef47-468f-bb8a-b2c956968740",
           storyLink: "/public/images/comic02.jpg",
         },
         {
-          id: "223c46e8-25a5-4e81-90c2-8ded2690db04",
+          id: "37e4c254-8cc7-4143-b6b3-403f4ecd7faf",
           storyLink: "/public/images/comic03.jpg",
         },
         {
-          id: "df4e0080-489d-4e4e-970c-6123d360dcc4",
+          id: "5f07440b-c6f9-4025-8f16-05e95124c735",
           storyLink: "/public/images/one.jpg",
         },
         {
-          id: "2b325da1-7ed8-4715-9692-438a0ef3f871",
+          id: "8f6d8ff8-48be-4464-a63e-4ef81801bb8d",
           storyLink: "/public/images/two.jpg",
         },
       ],
@@ -53,12 +51,12 @@ const data = [
       stories: [
         
               {
-                id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+                id: "c9464dc4-1643-44ef-aa9a-978b3071c992",
                 storyLink: "/public/videos/cat.mp4",
               },
              
               {
-                id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+                id: "64a35eb5-754e-4ca3-9003-b3cd5f39abf6",
                 storyLink: "/public/videos/cute.mp4",
               },
 
@@ -68,7 +66,7 @@ const data = [
         username: "icc",
         stories: [
           {
-            id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+            id: "d2bfccaa-442b-4a25-9f01-b56941e13485",
             storyLink: "/public/images/icc-1.jpg",
           },
           {
@@ -86,7 +84,7 @@ const data = [
         username: "_cartoon_reels",
         stories: [
           {
-            id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+            id: "07f51014-fbb2-493c-a062-94ca3993e7cc",
             storyLink: "/public/videos/tom_jery.mp4",
           },
         
@@ -96,19 +94,19 @@ const data = [
         username: "pk",
       stories: [
         {
-          id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+          id: "d025372b-9541-4bf0-a825-ea6ab119437a",
           storyLink: "/public/videos/waves.mp4",
         },
         {
-          id: "c7bd8411-d6b8-4e7d-a620-74117409e3e2",
+          id: "1e25c372-b18f-452b-a7a6-cd3a06b1f5a9",
           storyLink: "/public/videos/night.mp4",
         },
         {
-          id: "223c46e8-25a5-4e81-90c2-8ded2690db04",
+          id: "6c6110f8-4178-4671-9148-7f6eef3c51b6",
           storyLink: "/public/videos/water-fall.mp4",
         },
         {
-          id: "df4e0080-489d-4e4e-970c-6123d360dcc4",
+          id: "5185e270-a319-4303-9624-c94f0fe5d2a6",
           storyLink: "/public/videos/morning.mp4",
         },
        
@@ -118,7 +116,7 @@ const data = [
         username: "_food-items",
         stories: [
           {
-            id: "323bb349-9719-4e47-b90c-e7444e0528fc",
+            id: "c782db7e-15f3-4bdc-8669-6def52b05a0b",
             storyLink: "/public/video/food.mp4",
           },
        
@@ -128,5 +126,5 @@ const data = [
    
   ];
   
-  export default data;
+  export default cards;
   

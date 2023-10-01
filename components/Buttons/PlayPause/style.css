@@ -1,6 +1,7 @@
-.voice-control{
+.icon {
     z-index: 99;
     margin-top: -30%;
-    margin-left: 85%;
+    margin-left: -10%;
     transform: scale(0.6);
-}
+  }
+  

@@ -1,0 +1,10 @@
+.heart {
+    margin-left: 90%;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 99;
+   margin-top: 170%;
+   transform: scale(0.6);
+  }
+  
+ 
