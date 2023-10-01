@@ -3,7 +3,7 @@ import PlayPause from '../Buttons/PlayPause';
 import RightLeftIcons from '../Buttons/RightLeftIcons';
 import MuteUnmute from '../Buttons/MuteUnmute';
 import Heart from '../Buttons/Heart';
-import cards from '../../api/data';
+// import cards from '../../api/data';
 import './style.css';
 
 const StoryContainer = () => {
@@ -194,7 +194,7 @@ const StoryContainer = () => {
                 onTogglePlayPause={() => togglePlayPause(i)}
               />
               {isCardInCenter(i) && (
-                <div className="progress-bar" style={{ width: '232px' }}>
+                <div className="progress-bar" style={{ width: '278px'}}>
                   <div className="progress-indicator" ref={progressRefs.current[i]}></div>
                 </div>
               )}

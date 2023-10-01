@@ -149,3 +149,22 @@
     .card--previous2 .progress-bar {
       display: none;
     }
+    .progress-bar {
+      height: 2px; 
+      background-color: #9cacb6; 
+      position: absolute;
+      opacity: 0.9;
+      z-index: 40;
+      margin-left: 0px;
+      margin-top: 12px;
+     
+    }
+    
+    
+    .progress-indicator {
+      position: absolute;
+      height: 2px;
+      background-color: #FFFFFFFF;
+      width: 230px;
+      margin-left: 0px;
+    }
