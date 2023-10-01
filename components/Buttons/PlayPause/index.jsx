@@ -1,4 +1,4 @@
-// PlayPause.jsx
+
 import React from 'react';
 import playIcon from '../../../public/play.svg';
 import pauseIcon from '../../../public/pause.svg'; 

@@ -46,20 +46,20 @@
       opacity: 0;
       display: flex;
       transition: 500ms;
-      border-radius: 8px;
+      border-radius: 5px;
       background-color: #333;
-      padding: 20px;
+      
      
     }
     .card video{
       position: absolute;
-      width: 240px;
-      height: 420px;
+      width: 280px;
+      height: 482px;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 5px;
       z-index: -1;
       background-color: #c5bcbc;
-      margin-top: 20px;
+ 
     
       
     }
@@ -121,8 +121,20 @@
     .card--previous2 .heart {
       display: none;
     }
-    
     .card--next .heart {
+      display: none;
+    }
+    .card--previous .voice-control {
+      display: none;
+    }
+    .card--next2 .voice-control{
+      display: none;
+    }
+    .card--previous2 .voice-control {
+      display: none;
+    }
+    
+    .card--next .voice-control {
       display: none;
     }
     .card--next .progress-bar {

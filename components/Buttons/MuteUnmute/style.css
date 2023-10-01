@@ -1,6 +1,6 @@
 .voice-control{
     z-index: 99;
-    margin-top: -30%;
-    margin-left: 85%;
+    margin-top: 110%;
+    margin-left: -220%;
     transform: scale(0.6);
 }

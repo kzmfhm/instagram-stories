@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect, createRef } from 'react';
 import PlayPause from '../Buttons/PlayPause';
 import RightLeftIcons from '../Buttons/RightLeftIcons';
+import MuteUnmute from '../Buttons/MuteUnmute';
 import Heart from '../Buttons/Heart';
+import cards from '../../api/data';
 import './style.css';
 
 const StoryContainer = () => {
@@ -32,7 +34,8 @@ const StoryContainer = () => {
   const videoRefs = useRef(Array(cards.length).fill().map(() => createRef()));
   const progressRefs = useRef(Array(cards.length).fill().map(() => createRef()));
   const [progressWidth, setProgressWidth] = useState(Array(cards.length).fill('100%'));
-  const [playStates, setPlayStates] = useState(Array(cards.length).fill(false));
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [isVideoMuted, setIsVideoMuted] = useState(false);
 
   useEffect(() => {
     videoRefs.current = videoRefs.current.map((ref, i) => ref || createRef());
@@ -90,14 +93,13 @@ const StoryContainer = () => {
     // Pause the video when the card is not in the center position
     if (video && !isCardInCenter(index)) {
       video.pause();
+      setIsVideoPlaying(false);
     }
   }, [index]);
 
   const isCardInCenter = (cardIndex) => {
     return cardIndex === index;
   };
-
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   const togglePlayPause = (index) => {
     const isActive = isCardInCenter(index);
@@ -119,6 +121,15 @@ const StoryContainer = () => {
         video.pause();
         setIsVideoPlaying(false);
       }
+    }
+  };
+
+  const toggleMuteUnmute = (index) => {
+    const video = videoRefs.current[index]?.current;
+
+    if (video) {
+      video.muted = !video.muted;
+      setIsVideoMuted(video.muted);
     }
   };
 
@@ -164,11 +175,6 @@ const StoryContainer = () => {
               className={className}
               onClick={() => handleCardClick(i)}
             >
-              {isCardInCenter(i) && (
-                <div className="progress-bar" style={{ width: '232px' }}>
-                  <div className="progress-indicator" ref={progressRefs.current[i]}></div>
-                </div>
-              )}
               <video
                 ref={videoRefs.current[i]}
                 src={item.video}
@@ -176,11 +182,22 @@ const StoryContainer = () => {
                 width={300}
                 height={450}
               />
-             <Heart/>
+              <Heart />
+              <div>
+              <MuteUnmute
+                isPlaying={isVideoPlaying}
+                onToggleMuteUnmute={() => toggleMuteUnmute(i)}
+              />
+                </div>
               <PlayPause
                 isPlaying={isVideoPlaying}
                 onTogglePlayPause={() => togglePlayPause(i)}
               />
+              {isCardInCenter(i) && (
+                <div className="progress-bar" style={{ width: '232px' }}>
+                  <div className="progress-indicator" ref={progressRefs.current[i]}></div>
+                </div>
+              )}
             </div>
           );
         })}
