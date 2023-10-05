@@ -7,26 +7,11 @@ import './style.css';
 
 const StoryContainer = () => {
   const cards = [
-    {
-      id: '1',
-      video: '/videos/tom-jery.mp4',
-    },
-    {
-      id: '2',
-      video: '/videos/code.mp4', 
-    },
-    {
-      id: '3',
-      video: '/videos/cute.mp4', 
-    },
-    {
-      id: '4',
-      video: '/videos/icc.mp4',
-    },
-    {
-      id: '5',
-      video: '/videos/frontend-course.mp4', 
-    },
+    { id: '1', video: '/videos/tom-jery.mp4' },
+    { id: '2', video: '/videos/code.mp4' },
+    { id: '3', video: '/videos/cute.mp4' },
+    { id: '4', video: '/videos/icc.mp4' },
+    { id: '5', video: '/videos/frontend-course.mp4' },
   ];
 
   const [index, setIndex] = useState(0);
@@ -154,20 +139,20 @@ const StoryContainer = () => {
           onRightArrowClick={handleRightArrowClick}
         />
         {cards.map((item, i) => {
-          let className = 'card';
+         let className = 'card';
 
-          if (i === index) {
-            className = 'card card--active';
-          } else if (i === index + 1 || (i === 0 && index === cards.length - 1)) {
-            className = 'card card--next';
-          } else if (i === index - 1 || (i === cards.length - 1 && index === 0)) {
-            className = 'card card--previous';
-          } else if (i === index + 2 || (i === 1 && index === cards.length - 1) || (i === 0 && index === cards.length - 2)) {
-            className = 'card card--next2';
-          } else if (i === index - 2 || (i === cards.length - 1 && index === 1) || (i === cards.length - 2 && index === 0)) {
-            className = 'card card--previous2';
-          }
-          return (
+         if (i === index) {
+           className = 'card card--active';
+         } else if (i === index + 1 || (i === 0 && index === cards.length - 1)) {
+           className = 'card card--next';
+         } else if (i === index - 1 || (i === cards.length - 1 && index === 0)) {
+           className = 'card card--previous';
+         } else if (i === index + 2 || (i === 1 && index === cards.length - 1) || (i === 0 && index === cards.length - 2)) {
+           className = 'card card--next2';
+         } else if (i === index - 2 || (i === cards.length - 1 && index === 1) || (i === cards.length - 2 && index === 0)) {
+           className = 'card card--previous2';
+         }
+         return (
             <div
               key={item.id}
               className={className}
