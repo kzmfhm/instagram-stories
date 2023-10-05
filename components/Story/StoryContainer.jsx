@@ -22,7 +22,7 @@ const StoryContainer = () => {
     },
     {
       id: '4',
-      video: '/videos/tom-jery.mp4',
+      video: '/videos/icc.mp4',
     },
     {
       id: '5',
