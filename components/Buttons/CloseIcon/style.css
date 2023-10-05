@@ -2,3 +2,8 @@
     cursor: pointer;
     z-index: 30;
   }
+  @media screen and (max-width: 912px) {
+    .close-button  {
+     margin-left: 76%;
+    }
+  }
