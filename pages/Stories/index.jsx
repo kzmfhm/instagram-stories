@@ -1,7 +1,7 @@
 import React from 'react'
 import Appbar from '../../components/Layout/Appbar'
 import StoryContainer from '../../components/Story/StoryContainer'
-import './style.css'
+import '../../styles/style.css'
 
 
 const Stories = () => {
@@ -9,7 +9,6 @@ const Stories = () => {
     <div>
         <Appbar/>
         <StoryContainer/>
-     
     </div>
   )
 }

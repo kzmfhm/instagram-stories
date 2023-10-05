@@ -3,7 +3,6 @@ import PlayPause from '../Buttons/PlayPause';
 import RightLeftIcons from '../Buttons/RightLeftIcons';
 import MuteUnmute from '../Buttons/MuteUnmute';
 import Heart from '../Buttons/Heart';
-// import cards from '../../api/data';
 import './style.css';
 
 const StoryContainer = () => {
@@ -168,7 +167,6 @@ const StoryContainer = () => {
           } else if (i === index - 2 || (i === cards.length - 1 && index === 1) || (i === cards.length - 2 && index === 0)) {
             className = 'card card--previous2';
           }
-
           return (
             <div
               key={item.id}
