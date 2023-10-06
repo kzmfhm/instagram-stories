@@ -21,13 +21,13 @@
 
 ### Photos
 
-![My Instagram-Player Screen Shot](/images/instagram.png)
+![My Instagram-Player Screen Shot](./public/images/instagram.png)
 
-![My Instagram-Player Screen Shot](/images/stories.png)
+![My Instagram-Player Screen Shot](./public/images/stories.png)
 
-![My Instagram-Player Screen Shot](/images/mobile-insta.png)
+![My Instagram-Player Screen Shot](./public/images/mobile-insta.png)
 
-![My Instagram-Player Screen Shot](/images/mobile-story.png)
+![My Instagram-Player Screen Shot](./public/images/mobile-story.png)
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
