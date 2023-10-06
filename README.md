@@ -25,11 +25,9 @@
 
 ![My Instagram-Player Screen Shot](./public/images/stories.png)
 
-![My Instagram-Player Screen Shot](./public/images/mobile-insta.png) &nbsp;&nbsp;&nbsp; ![Mobile Story](./public/images/mobile-story.png)
+![My Instagram-Player Screen Shot](./public/images/mobile-view.png)
 
-<!-- ![My Instagram-Player Screen Shot](./public/images/mobile-story.png) -->
-
-  <p align="right"><a href="#readme-top">back to top</a></p>
+<p align="right"><a href="#readme-top">back to top</a></p>
   
   ### Built With
   ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
