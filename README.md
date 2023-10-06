@@ -2,6 +2,8 @@
 
 ## About The Project
 
+Live Preview👉: [https://instagram-stories-flame.vercel.app/](https://instagram-stories-flame.vercel.app/)
+
 ### Photos
 
 ![My Instagram-Player Screen Shot](./public/images/instagram.png)
