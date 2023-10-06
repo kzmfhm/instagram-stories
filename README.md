@@ -25,9 +25,9 @@
 
 ![My Instagram-Player Screen Shot](./public/images/stories.png)
 
-![My Instagram-Player Screen Shot](./public/images/mobile-insta.png)
+![My Instagram-Player Screen Shot](./public/images/mobile-insta.png) &nbsp;&nbsp;&nbsp; ![Mobile Story](./public/images/mobile-story.png)
 
-![My Instagram-Player Screen Shot](./public/images/mobile-story.png)
+<!-- ![My Instagram-Player Screen Shot](./public/images/mobile-story.png) -->
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
