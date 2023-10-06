@@ -1,22 +1,5 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
-  <div align="center">
-    <a href="https://github.com/kzmfhm/instagram-stories.git">
-      <img src="./public/images/logo.svg" alt="Logo" width="200" height="200">
-    </a>
-    <h1 align="center">Refactored by @kzm</h1>
-    <p align="center">
-    <br/>Instagram's video player is the cool tool that makes your videos pop on the platform. With autoplay and sound controls, have fun with the simplicity and awesomeness animation of the video player! 📹✨
-    <br/>
-    Built by: @kzm
-    <br/>
-      <a href="https://github.com/kzmfhm/instagram-stories"><strong>Explore the docs »</strong></a>
-      <br/>
-     </p>
-  </div>
-
 ## About The Project
 
 ### Photos
@@ -40,13 +23,12 @@
   <p align="right"><a href="#readme-top">back to top</a></p>
   
   ### Description
-  
-"Step into the world of Instagram Story Viewer—a chic, responsive video player that effortlessly glides with a swipe or click. Immerse yourself in a seamlessly delightful viewing experience, whether you're on your mobile device or desktop. Your appreciation means a lot!🌟
-<br/>
-If you're enjoying the magic as much as I do, I'd be over the moon if you'd consider adding a little sparkle to my day by giving it a star! 🌟"
+  A project of video player seamless with Instagram stories that makes your videos pop on the platform. With autoplay and sound controls, have fun with the simplicity and awesomeness animation of the video player! 📹✨ Immerse yourself in a seamlessly delightful viewing experience, whether you're on your mobile device or desktop. Your appreciation means a lot!🌟
+  <br/>
+  If you're enjoying the magic as much as I do, I'd be over the moon if you'd consider adding a little sparkle to my day by giving it a star! 🌟
 
 <h3>TL;DR</h3>
-Feel free to fork this repo for your own purposes, provided you give me credit.
+Feel free to fork this repo for your own purposes.
 
   <p align="right"><a href="#readme-top">back to top</a></p>
 
