@@ -4,7 +4,7 @@
 <br />
   <div align="center">
     <a href="https://github.com/kzmfhm/instagram-stories.git">
-      <img src="/images/logo.svg" alt="Logo" width="200" height="200">
+      <img src="./public/images/logo.svg" alt="Logo" width="200" height="200">
     </a>
     <h1 align="center">Refactored by @kzm</h1>
     <p align="center">
