@@ -103,3 +103,9 @@ If you have any inquiries, don't hesitate to reach out to me via socials or by s
 Project Link: [https://github.com/kzmfhm/instagram-stories.git](https://github.com/kzmfhm/instagram-stories.git)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
+
+## ⭐️Support
+
+Give a ⭐️ if this project helped you!
+
+<p align="right"><a href="#readme-top">back to top</a></p>
