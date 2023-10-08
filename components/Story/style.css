@@ -58,15 +58,13 @@
       z-index: 1;
       background-color: #333;
     }
-
+ 
     .card--previous {
       transform: translateX(-123%) scale(0.6);
       transition: 500ms;
       opacity: 0.5;
-      background-color: darkslategrey;
-    
-    }
-    
+  }
+   
     .card--next {
       transform: translateX(124%) scale(0.6);
       transition: 500ms;

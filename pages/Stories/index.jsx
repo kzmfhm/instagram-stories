@@ -8,7 +8,8 @@ const Stories = () => {
   return (
     <div>
         <Appbar/>
-        <StoryContainer/>
+       
+         <StoryContainer/>
     </div>
   )
 }
