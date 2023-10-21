@@ -24,7 +24,7 @@ Live Preview👉: [https://instagram-stories-flame.vercel.app/](https://instagra
 
   <p align="right"><a href="#readme-top">back to top</a></p>
   
-  ### Description
+  ### 🌟Description
   A project of video player seamless with Instagram stories that makes your videos pop on the platform. With autoplay and sound controls, have fun with the simplicity and awesomeness animation of the video player! 📹✨ Immerse yourself in a seamlessly delightful viewing experience, whether you're on your mobile device or desktop. Your appreciation means a lot!🌟
   <br/>
   If you're enjoying the magic as much as I do, I'd be over the moon if you'd consider adding a little sparkle to my day by giving it a star! 🌟
